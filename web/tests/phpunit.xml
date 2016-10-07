@@ -1,10 +1,7 @@
-<phpunit backupGlobals="true" bootstrap="./bootstrap.php">
-    <filter>
-        <whitelist>
-            <directory>/fatfree</directory>
-        </whitelist>
-    </filter>
-    <testsuite>
-        <directory>./</directory>
-    </testsuite>
+<phpunit colors="true" bootstrap="./bootstrap.php">
+    <testsuites>
+        <testsuite name="Controllers Test Suite">
+            <directory suffix="Tests.php">/app/controllers/</directory>
+        </testsuite>
+    </testsuites>
 </phpunit>
