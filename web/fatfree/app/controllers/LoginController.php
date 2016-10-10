@@ -8,7 +8,7 @@ class LoginController extends Controller
     {
         //Overridden to prevent endless redirects if a user is redirected to the login page for not being logged in
 
-        if ($this->f3->get("SESSION.user") !== null )
+        if ($this->f3->get("SESSION.user") !== null)
         {
             if ($this->f3->get("ALIAS") == "loginPage")
             {
