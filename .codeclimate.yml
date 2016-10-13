@@ -17,7 +17,7 @@ engines:
       standard: "PSR1,PSR2"
   phpmd:
     enabled: true
-    rulesets: "cleancode,controversial,design,unusedcode,rulesets/phpmdruleset.xml"
+    rulesets: "cleancode,controversial,design,unusedcode,phpmdruleset.xml"
 ratings:
   paths:
     - "**.css"
